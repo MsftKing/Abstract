@@ -1,0 +1,45 @@
+:root {
+    --topbar-color: var(#000000);
+    --helpsection-color: var(#dadbf1);
+    --text-color: var(#fff);
+    --signin-color: var(#4C5FD5);
+}
+body {
+    font-family: 'teko', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+div.topbarContainer{
+    background-color: #000000;
+    color: #fff;
+    display: block;
+    border-top-left-radius: 2vh;
+    border-top-right-radius: 2vh;
+    height: 10vh;
+    justify-content: space-evenly;
+    padding: 10px 10px 4rem 10px;
+    margin: auto;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+nav {
+    display: inline-block;
+}
+
+button {
+    padding: 10px 5px 10px 5px;
+    margin: 10px 5px 10px 5px;
+    margin: auto;
+    border-radius: 10%;
+    color: #fff;    
+}
+
+.submitButton {
+    background-color: #111111;
+}
+
+.signin {
+    background-color: #4C5FD5;
+}
