@@ -22,11 +22,18 @@ div.topbarContainer{
     margin: auto;
     font-size: 17px;
     font-weight: 700;
+    position: sticky;
+}
+
+h1.topbarTitle {
+    width: 50vw;
+    display: block;
 }
 
 nav {
     display: inline-block;
 }
+
 
 button {
     padding: 10px 5px 10px 5px;
@@ -42,4 +49,14 @@ button {
 
 .signin {
     background-color: #4C5FD5;
+}
+
+main {
+    background-color: #dadbf1;
+    text-align: center;
+}
+
+section.searchContainer {
+    display: block;
+    block-size: auto;
 }
